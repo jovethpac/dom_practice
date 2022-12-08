@@ -1,24 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   <title>Mouseover Event</title>
-   <script>
-         window.addEventListener("load", function() {
-            let list = document.getElementById("lane-list");
-            list.addEventListener("mouseover", function (event) {
-               let element = event.target;
-               element.innerHTML += ">";
-               console.log("target", element);
-            });
-         });
-   </script>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=h1, initial-scale=1.0">
+   <title>DOM and Events</title>
 </head>
 <body>
-   Mouseover Race
-   <ul id="lane-list">
-         <li>Lane 1</li>
-         <li>Lane 2</li>
-         <li>Lane 3</li>
-   </ul>
+   <h1>This is the DOM and Events Lecture Web Page</h1>
+
+   <p> The DOM has a lot of layers to it. The first thing we need to focus on is the <strong>window</strong> object.</p>
+
+   <p>Let's try to add Javascript that changes the color of this text in this p tag to be red when we hover over it?</p>
 </body>
 </html>
